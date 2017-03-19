@@ -24,6 +24,7 @@
     /*</editor-fold>*/
 }
 
+
 /** HEADER **/
 #header-nav {
     background-color: var(--grey200-color);
@@ -60,25 +61,68 @@
     background: -o-linear-gradient(#e1f5fe, #81d4fa); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#e1f5fe, #81d4fa); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#e1f5fe, #81d4fa); /* Standard syntax (must be last) */
-
     margin-bottom: 15px;
+    padding: 16px;
+}
+
+#menu_title_beef {
+    color: #ffffff;
+    background-color: #b71c1c;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 6px;
+}
+
+#menu_beef {
+    background: #ffcdd2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffcdd2, #e57373); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffcdd2, #e57373); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffcdd2, #e57373); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffcdd2, #e57373); /* Standard syntax (must be last) */
+    margin-bottom: 15px;
+    padding: 16px;
+}
+
+#menu_title_sushi {
+    background-color: #ffea00;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 6px;
+}
+
+#menu_sushi {
+    background: #fff9c4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff9c4, #fff176); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff9c4, #fff176); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff9c4, #fff176); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff9c4, #fff176); /* Standard syntax (must be last) */
+    margin-bottom: 15px;
+    padding: 16px;
 }
 
 /*<editor-fold desc="Media queries">*/
 
 /********** Large devices only lg-based classes **********/
 @media (min-width: 1200px) {
-
+    #main-content {
+        width: 100%;
+    }
 }
 
 /********** Medium devices only md-based classes **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    #main-content {
+        width: 100%;
+    }
 }
 
 /********** Small devices only sm-based classes **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+    #main-content {
+        width: 100%;
+    }
 }
 
 /********** Extra small devices only custom class **********/
